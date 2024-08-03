@@ -22,7 +22,7 @@ If your project supports Swift Package Manager, include these steps:
 ```bash
 # Add this package dependency to your Package.swift file:
 dependencies: [
-    .package(url: "https://github.com/example/DependencyName.git", from: "1.0.0")
+    .package(url: "https://github.com/bilalmughal9321/TestPackage.git", from: "1.0.0")
 ],
 targets: [
     .target(
