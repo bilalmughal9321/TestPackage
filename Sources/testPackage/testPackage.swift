@@ -13,6 +13,7 @@ public class MediumWebView: WKWebView {
         super.init(frame: .zero, configuration: webConfiguration)
         self.scrollView.isScrollEnabled = false
         self.isMultipleTouchEnabled = false
+        print("version: \(info.version)")
     }
     
     required init?(coder: NSCoder) {
@@ -27,4 +28,9 @@ public class MediumWebView: WKWebView {
         }
         return nil
     }
+}
+
+
+struct info {
+    static var version = "1.0.0"
 }
