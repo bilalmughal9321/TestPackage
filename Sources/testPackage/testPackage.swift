@@ -37,5 +37,5 @@ public class MediumWebView: WKWebView {
 
 
 struct info {
-    static var version = "1.0.1"
+    static var version = "1.0.2"
 }
