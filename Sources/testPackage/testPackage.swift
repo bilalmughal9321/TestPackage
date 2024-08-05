@@ -8,7 +8,7 @@ import WebKit
 public class MediumWebView: WKWebView {
     
     public func start() {
-        print("version: \(info.version)")
+        print("version: \(info.version)" )
     }
     
 //    public init() {
